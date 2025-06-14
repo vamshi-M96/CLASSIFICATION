@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import sklearn
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.tree import  DecisionTreeClassifier
