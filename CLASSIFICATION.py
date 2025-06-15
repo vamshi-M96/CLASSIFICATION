@@ -1,7 +1,7 @@
 import pandas as pd
+pip install -r requirements.txt
 import streamlit as st
 import numpy as np
-import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.tree import  DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
