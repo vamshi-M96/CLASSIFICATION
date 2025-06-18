@@ -1,6 +1,8 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+import os
+os.system("pip install scikit-learn")
 from sklearn.model_selection import train_test_split
 from sklearn.tree import  DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
